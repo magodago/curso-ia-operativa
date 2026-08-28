@@ -39,7 +39,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(14px);ba
 .hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 60px;position:relative}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
 .badge-live{display:inline-flex;align-items:center;gap:8px;background:rgba(61,155,255,.1);border:1px solid rgba(61,155,255,.3);color:var(--blue);font-size:12.5px;font-weight:600;padding:7px 14px;border-radius:99px;margin-bottom:22px;letter-spacing:.4px}
-.badge-live .dot{width:8px;height:8px;border-radius:50%;background:var(--blue);animation:pulse 1.6s infinite}
+.badge-live .dot{width:8px;height:8px;border-radius:50%;background:var(--blue);animation:pulse 1.6s infinite !important}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 .hero h1{font-size:clamp(34px,5vw,58px);line-height:1.04;font-weight:700;letter-spacing:-1px;margin-bottom:20px}
 .hero h1 .grad{background:linear-gradient(90deg,var(--blue),var(--pink),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -55,9 +55,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(14px);ba
 /* portada animada */
 .cover{position:relative;aspect-ratio:16/10;border-radius:18px;background:linear-gradient(145deg,#10102a,#0a0a14);border:1px solid var(--line);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
 .cover .orb{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55}
-.cover .o1{width:320px;height:320px;background:var(--blue);top:-80px;left:-60px;animation:float1 9s ease-in-out infinite}
-.cover .o2{width:260px;height:260px;background:var(--pink);bottom:-70px;right:-40px;animation:float2 11s ease-in-out infinite}
-.cover .o3{width:180px;height:180px;background:var(--orange);top:40%;left:50%;animation:float1 13s ease-in-out infinite}
+.cover .o1{width:320px;height:320px;background:var(--blue);top:-80px;left:-60px;animation:float1 9s ease-in-out infinite !important}
+.cover .o2{width:260px;height:260px;background:var(--pink);bottom:-70px;right:-40px;animation:float2 11s ease-in-out infinite !important}
+.cover .o3{width:180px;height:180px;background:var(--orange);top:40%;left:50%;animation:float1 13s ease-in-out infinite !important}
 @keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(24px,-18px)}}
 @keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(-22px,16px)}}
 .cover .ring{position:absolute;inset:12%;border:1px solid rgba(255,255,255,.12);border-radius:50%}
@@ -68,11 +68,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(14px);ba
 .cover .play{position:absolute;top:18px;right:18px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:15px;color:#fff}
 /* ---------- MARQUEE ---------- */
 .marquee{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;background:rgba(255,255,255,.015)}
-.mq-track{display:flex;gap:44px;width:max-content;animation:mq 100s linear infinite;will-change:transform}
-.mq-track span{font-family:'Space Grotesk';font-size:15px;color:var(--text2);white-space:nowrap;letter-spacing:.5px}
+.mq-track{display:flex;width:max-content;animation:mq 60s linear infinite !important;will-change:transform}
+.mq-track span{font-family:'Space Grotesk';font-size:15px;color:var(--text2);white-space:nowrap;letter-spacing:.5px;margin-right:44px}
 .mq-track span b{color:var(--blue)}
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.mq-track{animation:none}.cover .orb,.badge-live .dot{animation:none}}
 /* ---------- SECCIONES ---------- */
 section{padding:92px 0;position:relative}
 .kicker{font-size:12.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--pink);margin-bottom:12px}
@@ -187,9 +186,10 @@ footer b{color:var(--text2)}
   </div>
 </div></header>
 
-<div class="marquee"><div class="mq-track" id="mq1">
-  <span><b>Gmail →</b> respuestas automáticas</span><span><b>Sheets →</b> informes semanales</span><span><b>ChatGPT →</b> actas de reunión</span><span><b>WhatsApp →</b> avisos al equipo</span><span><b>n8n →</b> flujos sin código</span><span><b>→</b> 176 horas al año recuperadas</span>
-</div><div class="mq-track" id="mq2"></div></div>
+<div class="marquee"><div class="mq-track">
+  <span><b>Gmail →</b> respuestas automáticas</span><span><b>Sheets →</b> informes semanales</span><span><b>ChatGPT →</b> actas de reunión</span><span><b>WhatsApp →</b> avisos al equipo</span>
+  <span><b>Gmail →</b> respuestas automáticas</span><span><b>Sheets →</b> informes semanales</span><span><b>ChatGPT →</b> actas de reunión</span><span><b>WhatsApp →</b> avisos al equipo</span>
+</div></div>
 
 <section id="dolor"><div class="wrap">
   <div class="kicker">El problema real</div>
@@ -294,8 +294,7 @@ footer b{color:var(--text2)}
 // CTAs
 function goWA(){window.open('https://wa.me/34658237988?text='+encodeURIComponent('Hola David, quiero el curso IA Operativa (plaza de lanzamiento 149€). ¿Cómo lo tramitamos?'),'_blank')}
 function goPP(){window.open('https://paypal.me/dortizs76/149','_blank')}
-// marquee duplicado
-(function(){var a=document.getElementById('mq1'),b=document.getElementById('mq2');b.innerHTML=a.innerHTML})();
+// marquee: los 2 sets ya están en el HTML (loop sin salto)
 // countdown a 7 días desde carga (lanzamiento real)
 (function(){
   var end=new Date('2026-09-04T23:59:59').getTime();
@@ -314,7 +313,7 @@ function goPP(){window.open('https://paypal.me/dortizs76/149','_blank')}
   function draw(){x.clearRect(0,0,W,H);for(var i=0;i<N;i++){var p=P[i];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
     x.beginPath();x.arc(p.x,p.y,p.r,0,7);x.fillStyle='rgba('+p.col+','+p.a+')';x.fill()}
     requestAnimationFrame(draw)}
-  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){draw()}else{x.clearRect(0,0,W,H)}
+  draw();
 })();
 </script>
 </body>
