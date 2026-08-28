@@ -157,7 +157,7 @@ footer b{color:var(--text2)}
 
 <nav><div class="nav-in">
   <div class="logo"><i></i>NEO LABS</div>
-  <button class="nav-cta" onclick="goWA()">Quiero el curso →</button>
+  <button class="nav-cta" onclick="goPP()">Comprar ahora →</button>
 </div></nav>
 
 <header class="hero"><div class="wrap">
@@ -167,8 +167,8 @@ footer b{color:var(--text2)}
       <h1>Las empresas que automatizan con IA van <span class="grad">dos años por delante.</span> Las que esperan, lo pagan después.</h1>
       <p class="sub">Curso online <b>IA Operativa</b>: aprende a montar automatizaciones reales con IA en 3 horas. Sin saber programar. 20 lecciones, plantillas listas y ejercicios guiados — con casos reales de oficina, no teoría.</p>
       <div class="cta-row">
-        <button class="btn btn-wa" onclick="goWA()">💬 Quiero mi plaza a 149€</button>
-        <button class="btn btn-pp" onclick="goPP()">Comprar con PayPal →</button>
+        <button class="btn btn-wa" onclick="goPP()">Comprar ahora · 149€</button>
+        <button class="btn btn-pp" onclick="goContact()">¿Dudas? Escríbenos →</button>
       </div>
       <div class="hero-meta">
         <span><b>20 lecciones</b> · vídeo+audio+PDF</span>
@@ -270,8 +270,8 @@ footer b{color:var(--text2)}
       <div class="cd-box"><b id="cd-s">--</b><span>seg</span></div>
     </div>
     <div class="cta-row">
-      <button class="btn btn-wa" onclick="goWA()">💬 Quiero mi plaza a 149€</button>
-      <button class="btn btn-pp" onclick="goPP()">Comprar con PayPal (149€) →</button>
+      <button class="btn btn-wa" onclick="goPP()">Comprar ahora · 149€</button>
+      <button class="btn btn-pp" onclick="goContact()">¿Dudas? Escríbenos →</button>
     </div>
     <div class="garantia">
       <div class="sello">14 DÍAS<br>GARANTÍA</div>
@@ -283,7 +283,8 @@ footer b{color:var(--text2)}
 <section class="cta-final"><div class="wrap">
   <h2>Dentro de un año, <span class="grad" style="background:linear-gradient(90deg,var(--blue),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent">te alegrarás de haber entrado hoy.</span></h2>
   <p>Las 10 plazas de lanzamiento se agotan. Después: 199€.</p>
-  <button class="btn btn-wa" onclick="goWA()" style="font-size:18px;padding:18px 36px">💬 Reservar mi plaza a 149€</button>
+  <button class="btn btn-wa" onclick="goPP()" style="font-size:18px;padding:18px 36px">Comprar ahora · 149€</button>
+  <p style="margin-top:18px;font-size:14px;color:var(--text3)">¿Preguntas antes de comprar? <a href="mailto:david@neolabs.me" style="color:var(--blue)">Escríbenos por email</a> — respondemos el mismo día.</p>
 </div></section>
 
 <footer><div class="wrap">
@@ -294,9 +295,9 @@ footer b{color:var(--text2)}
 <script>
 // preloader
 (function(){var p=document.getElementById('pl');if(location.search.includes('nopre=1')){p.style.transition='none';p.style.opacity=0;p.style.visibility='hidden'}else{window.addEventListener('load',function(){setTimeout(function(){p.classList.add('done')},900)})}})();
-// CTAs
-function goWA(){window.open('https://wa.me/34658237988?text='+encodeURIComponent('Hola David, quiero el curso IA Operativa (plaza de lanzamiento 149€). ¿Cómo lo tramitamos?'),'_blank')}
-function goPP(){window.open('https://paypal.me/dortizs76/149','_blank')}
+// CTAs: solo compra (PayPal) y contacto por email. Sin WhatsApp ni teléfono.
+function goPP(){window.open('https://www.paypal.com/qrcodes/managed/c131312c-ec4e-4415-804d-41a5725c516b?utm_source=consapp_download&amount=149&currency_code=EUR','_blank')}
+function goContact(){location.href='mailto:david@neolabs.me?subject='+encodeURIComponent('Consulta curso IA Operativa')}
 // marquee: los 2 sets ya están en el HTML (loop sin salto)
 // countdown a 7 días desde carga (lanzamiento real)
 (function(){
