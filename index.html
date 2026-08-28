@@ -259,7 +259,7 @@ footer b{color:var(--text2)}
     <div class="price-old">199€</div>
     <div class="price-now">149€</div>
     <div class="price-cur">Precio de lanzamiento para los 10 primeros alumnos · después vuelve a 199€</div>
-    <div class="plazas">🔥 Quedan 8 de 10 plazas a precio de lanzamiento</div>
+    <div class="plazas">🔥 10 plazas a precio de lanzamiento · oferta válida hasta el 4 de septiembre</div>
     <div class="countdown">
       <div class="cd-box"><b id="cd-d">--</b><span>días</span></div>
       <div class="cd-box"><b id="cd-h">--</b><span>horas</span></div>
@@ -298,7 +298,7 @@ function goPP(){window.open('https://paypal.me/dortizs76/149','_blank')}
 (function(){var a=document.getElementById('mq1'),b=document.getElementById('mq2');b.innerHTML=a.innerHTML})();
 // countdown a 7 días desde carga (lanzamiento real)
 (function(){
-  var end=Date.now()+7*864e5;
+  var end=new Date('2026-09-04T23:59:59').getTime();
   var els={d:document.getElementById('cd-d'),h:document.getElementById('cd-h'),m:document.getElementById('cd-m'),s:document.getElementById('cd-s')};
   function tick(){var t=end-Date.now();if(t<0)t=0;var d=Math.floor(t/864e5),h=Math.floor(t%864e5/36e5),m=Math.floor(t%36e5/6e4),s=Math.floor(t%6e4/1e3);
     els.d.textContent=d;els.h.textContent=String(h).padStart(2,'0');els.m.textContent=String(m).padStart(2,'0');els.s.textContent=String(s).padStart(2,'0')}
