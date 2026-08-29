@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:14,756
+Llegamos al final. Veinte lecciones, y sobre todo, un cambio de mentalidad. Antes de despedirnos, quiero que mires atrás un segundo. Recuerda tu primera automatización, aquella respuesta de correos que montaste en la primera lección. Parecía magia.
+
+2
+00:00:14,756 --> 00:00:29,512
+Ahora sabes que era solo el principio. Piensa en todo lo que sabes hoy.
+
+3
+00:00:29,512 --> 00:00:44,268
+Montar flujos en n8n, conectar servicios, usar inteligencia artificial en tu trabajo diario, calcular si una automatización merece la pena, proteger los datos, y llevar todo eso a tu equipo. Eso no lo sabe casi nadie en tu empresa.
+
+4
+00:00:44,268 --> 00:00:59,024
+Eso te convierte en alguien valioso. Pero ojo, no te duermas. La automatización es como un músculo: si no lo usas, se atrofia. Así que te dejo un plan sencillo para los próximos treinta días.
+
+5
+00:00:59,024 --> 00:01:13,780
+La primera semana, automatiza una tarea pequeña y rápida, de esas que ya tienes en tu lista. La segunda semana, otra, un poco más grande. La tercera, comparte una con un compañero. La cuarta, mira atrás y cuenta las horas que has recuperado.
+
+6
+00:01:13,780 --> 00:01:28,536
+Te sorprenderá el número. A los noventa días, revisa tu lista completa. Seguramente tendrás diez o doce automatizaciones funcionando, y habrás recuperado semanas de trabajo.
+
+7
+00:01:28,536 --> 00:01:43,292
+Ahí es cuando puedes dar el siguiente paso: proponer a tu responsable un plan para tu equipo. Ya tienes los números, ya tienes los ejemplos. Y ya sabes cómo se hace. Y guarda los recursos: las plantillas de n8n, los prompts, las listas de control.
+
+8
+00:01:43,292 --> 00:01:58,048
+Vuelve a ellos cuando quieras montar algo nuevo. Son tu caja de herramientas, y la vas a necesitar. Cada vez que montes una automatización nueva, repasa las plantillas del curso: están pensadas para que no empieces de cero.
+
+9
+00:01:58,048 --> 00:02:12,804
+Quiero dejarte con una idea, la más importante de todo el curso. No se trata de que las máquinas hagan tu trabajo. Se trata de que tú hagas el trabajo que solo una persona puede hacer: decidir, crear, cuidar a los clientes, construir relaciones.
+
+10
+00:02:12,804 --> 00:02:27,560
+La automatización te devuelve tu tiempo. Y tu tiempo es lo único que no se puede comprar. Has llegado hasta aquí por una razón: porque no te conformas con trabajar más horas. Quieres trabajar mejor. Y eso, en el mundo que viene, vale más que cualquier título.
+
+11
+00:02:27,560 --> 00:02:42,316
+Gracias por confiar en este curso, y gracias por llegar hasta el final. La mayoría de la gente abandona a mitad. Tú no. Ahora sal ahí fuera y automatiza. Empieza por una cosa pequeña, esta misma semana.
+
+12
+00:02:42,316 --> 00:02:57,072
+Cuando la tengas funcionando, mira atrás: esa es la primera de muchas.
+

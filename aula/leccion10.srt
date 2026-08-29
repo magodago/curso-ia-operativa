@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:16,825
+Llegó el momento de la verdad. Durante todo el módulo has visto cómo funcionan los flujos: disparadores, reglas, acciones, conectores, plantillas. Has visto cómo se monta un informe completo, cómo se arreglan los errores.
+
+2
+00:00:16,825 --> 00:00:33,651
+Pero hay una diferencia enorme entre verlo y hacerlo. Y hoy la vas a cruzar. Hoy construyes tu primer flujo completo, de principio a fin, con tus propias manos. Yo solo te acompaño. Primero, elige la tarea. No vale cualquiera.
+
+3
+00:00:33,651 --> 00:00:50,477
+Tiene que cumplir tres condiciones. Una: se repite al menos tres veces por semana. Dos: tiene una entrada clara, un dato o un correo que la pone en marcha. Y tres: tiene una salida clara, un resultado que puedes ver y comprobar.
+
+4
+00:00:50,477 --> 00:01:07,303
+Un ejemplo: cada vez que llega un correo de un nuevo proveedor, se guarda en una hoja y se avisa al equipo. Eso cumple las tres. Segundo, dibuja el flujo en papel antes de tocar nada. Es la tentación de siempre: abrir n8n y empezar a conectar piezas. No.
+
+5
+00:01:07,303 --> 00:01:24,128
+Primero, tres frases: qué dispara el flujo, qué regla decide, qué acción se ejecuta. Si no sabes escribirlo en tres frases, todavía no sabes qué quieres construir. Tercero, construye. Disparador, regla, acción.
+
+6
+00:01:24,128 --> 00:01:40,954
+Conecta Gmail si el flujo empieza con un correo, conecta la hoja si guardas datos, conecta WhatsApp si necesitas avisar. Pieza a pieza, como hemos hecho todo el módulo. Cuarto, prueba con datos reales.
+
+7
+00:01:40,954 --> 00:01:57,780
+No inventes casos bonitos, usa un correo de verdad, una fila de verdad. Y observa: ¿hace lo que esperabas? Si no, ya sabes qué hacer. Recuerda la lección de los errores: mira el registro, busca el paso en rojo, lee el mensaje, corrige y vuelve a ejecutar.
+
+8
+00:01:57,780 --> 00:02:14,606
+Sin drama. Y quinto, déjalo vivir. Que se ejecute en su horario, que trabaje una semana entera. El viernes, revisa qué ha hecho. Cuenta las horas que te ha ahorrado. Ese número es tu resultado, tu prueba de que esto funciona.
+
+9
+00:02:14,606 --> 00:02:31,431
+Antes de dar el flujo por bueno, repasa esta lista: disparador activo y probado con datos reales, tres ejecuciones de prueba sin errores, una salida que puedas ver y comprobar: un correo, una fila en la hoja o un mensaje.
+
+10
+00:02:31,431 --> 00:02:48,257
+Si algo falla, vuelve a la lección de errores: registro, paso en rojo, mensaje, corrige, ejecuta. Y si te atascas, las plantillas del curso están para eso. Un consejo para terminar. No busques la tarea perfecta, busca la primera tarea.
+
+11
+00:02:48,257 --> 00:03:05,083
+La que te quite el mayor dolor con el menor esfuerzo. La perfección no existe en el primer flujo, existe en el décimo. El primero solo tiene que funcionar. Y cuando lo tengas corriendo, fíjate en cómo te sientes.
+
+12
+00:03:05,083 --> 00:03:21,909
+Has dejado de ser alguien que usa herramientas para ser alguien que las hace trabajar. Esa es la transformación que te llevas de este módulo. Ahora ve y construye tu primer flujo. Yo espero aquí, y quiero saber cómo te ha ido.
+
