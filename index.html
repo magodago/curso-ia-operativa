@@ -279,6 +279,34 @@ footer b{color:var(--text2)}
   <p style="margin-top:18px;font-size:14px;color:var(--text3)">¿Preguntas antes de comprar? <a href="mailto:david@neolabs.me" style="color:var(--blue)">Escríbenos por email</a> — respondemos el mismo día.</p>
 </div></section>
 
+<div id="contact-modal" class="cm-wrap" onclick="if(event.target===this)closeContact()">
+  <div class="cm-box">
+    <div class="cm-x" onclick="closeContact()">✕</div>
+    <div class="cm-title">¿Dudas con el curso?</div>
+    <div class="cm-sub">Déjame tu mensaje y te respondo en menos de 24h.</div>
+    <form action="https://formsubmit.co/dortizs76@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo lead curso IA Operativa">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" style="display:none">
+      <input type="email" name="email" placeholder="Tu email" required class="cm-in">
+      <textarea name="mensaje" placeholder="Tu duda o pregunta…" required class="cm-in cm-ta" id="cm-msg"></textarea>
+      <button type="submit" class="cm-btn">Enviar mensaje →</button>
+    </form>
+    <div class="cm-note">Prefieres escribir directamente: <a href="mailto:david@neolabs.me">david@neolabs.me</a></div>
+  </div>
+</div>
+<style>
+.cm-wrap{display:none;position:fixed;inset:0;background:rgba(5,5,12,.72);backdrop-filter:blur(6px);z-index:999;align-items:center;justify-content:center;padding:20px}
+.cm-box{background:#fff;color:#111;border-radius:18px;padding:30px 26px;max-width:440px;width:100%;position:relative;font-family:'Space Grotesk',sans-serif}
+.cm-x{position:absolute;top:14px;right:18px;cursor:pointer;font-size:18px;color:#888}
+.cm-title{font-size:20px;font-weight:700;margin-bottom:4px}
+.cm-sub{color:#666;font-size:14px;margin-bottom:18px}
+.cm-in{width:100%;box-sizing:border-box;padding:12px 14px;border:1.5px solid #ddd;border-radius:10px;font-size:15px;margin-bottom:10px;font-family:inherit}
+.cm-ta{min-height:110px;resize:vertical}
+.cm-btn{width:100%;padding:13px;background:linear-gradient(90deg,#3d9bff,#ff4fd8);border:none;border-radius:10px;color:#fff;font-weight:700;font-size:15px;cursor:pointer;font-family:inherit}
+.cm-note{color:#999;font-size:12.5px;margin-top:12px;text-align:center}
+.cm-note a{color:#3d9bff}
+</style>
 <footer><div class="wrap">
   <p><b>IA Operativa</b> · Curso 100% online · Acceso inmediato</p>
   <p style="margin-top:8px">© 2026 NEO LABS · David Ortiz · Experto en IA Aplicada</p>
@@ -289,7 +317,12 @@ footer b{color:var(--text2)}
 (function(){var p=document.getElementById('pl');if(location.search.includes('nopre=1')){p.style.transition='none';p.style.opacity=0;p.style.visibility='hidden'}else{window.addEventListener('load',function(){setTimeout(function(){p.classList.add('done')},900)})}})();
 // CTAs: solo compra (PayPal) y contacto por email. Sin WhatsApp ni teléfono.
 function goPP(){window.open('https://www.paypal.com/qrcodes/managed/c131312c-ec4e-4415-804d-41a5725c516b?utm_source=consapp_download&amount=149&currency_code=EUR','_blank')}
-function goContact(){location.href='mailto:david@neolabs.me?subject='+encodeURIComponent('Consulta curso IA Operativa')}
+function goContact(){
+  var m=document.getElementById('contact-modal');
+  if(m){m.style.display='flex';document.getElementById('cm-msg').focus()}
+  else location.href='mailto:david@neolabs.me?subject='+encodeURIComponent('Consulta curso IA Operativa')
+}
+function closeContact(){document.getElementById('contact-modal').style.display='none'}
 // marquee: los 2 sets ya están en el HTML (loop sin salto)
 // countdown a 7 días desde carga (lanzamiento real)
 (function(){
