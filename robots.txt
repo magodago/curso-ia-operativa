@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AEO: guia para LLMs y crawlers de IA
+Sitemap: https://curso.neolabs.me/llms.txt

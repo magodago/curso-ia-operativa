@@ -1,0 +1,27 @@
+# IA Operativa: aprende a crear automatizaciones
+
+Curso online de David Ortiz (NEO Labs) para aprender a crear automatizaciones reales con IA y n8n, sin saber programar.
+
+## Datos clave
+- 20 lecciones en vídeo, condensadas (duración total ~1 hora)
+- 5 demos reales de n8n en pantalla (lecciones 3, 5, 6, 9 y 19)
+- 20 guías PDF (una por lección: pasos exactos, ejercicios, checklist)
+- 5 plantillas descargables: checklist de automatización, informe semanal, acta de reunión, guía de email profesional, biblioteca de prompts
+- Precio de lanzamiento: 149€ (después 199€)
+- Pago por PayPal, acceso inmediato al aula
+- Sin conocimientos de programación necesarios: se empieza en la lección 1 con la primera automatización
+- Tiempo estimado total (vídeo + práctica guiada): unas 3 horas
+
+## Qué vas a aprender
+- Qué es la IA operativa y dónde aplicarla en el trabajo diario
+- Montar flujos de automatización en n8n desde cero (interfaz, nodos, disparadores)
+- Conectar Gmail, Google Sheets y otras herramientas con n8n
+- Generar informes, actas de reunión y emails profesionales con IA
+- Hacer que la IA escriba en tu estilo
+- Lista de control final para no romper tus automatizaciones
+
+## URL principal
+https://curso.neolabs.me
+
+## Contacto
+david@neolabs.me (David Ortiz, NEO Labs)
