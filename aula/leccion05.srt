@@ -1,0 +1,167 @@
+1
+00:00:00,00 --> 00:00:06,22
+ha llegado el momento de ensuciarte las manos. Hasta ahora hemos hablado de conceptos. Hoy
+
+2
+00:00:06,22 --> 00:00:12,66
+vamos a hacer, vamos a automatizar una tarea real, la tuya, del principio a fin, paso a
+
+3
+00:00:12,66 --> 00:00:19,00
+paso, y no te preocupes si nunca has hecho algo parecido. Yo te guía en cada paso y al final
+
+4
+00:00:19,00 --> 00:00:22,88
+de esta lección tendrás tu primera automatización funcionando.
+
+5
+00:00:22,88 --> 00:00:30,28
+Haz una pausa. Escribe aquí tu tarea en una frase el primer paso es elegir la tarea. Coge
+
+6
+00:00:30,28 --> 00:00:36,32
+la lista que hiciste en la lección 2. Esa de las tareas que se repiten 3 veces a la
+
+7
+00:00:36,32 --> 00:00:43,76
+semana y elige la más encilla, no la más importante, la más encilla. Puede ser responder
+
+8
+00:00:43,76 --> 00:00:51,34
+un correo tipo, guardar los datos de una factura o enviar un recordatorio. Pequeña, clara y
+
+9
+00:00:51,34 --> 00:00:57,58
+repetitiva. Esa es la candidata perfecta. No tienes la lista o ninguna tarea clara.
+
+10
+00:00:57,58 --> 00:01:03,34
+Usa esta, responde automáticamente con una plantilla a cualquier correo que contenga la palabra
+
+11
+00:01:03,34 --> 00:01:10,94
+presupuesto. Es pequeña, clara y repetitiva, la candidata perfecta. Haz una pausa.
+
+12
+00:01:10,94 --> 00:01:16,28
+Escribe disparador, regla y acción. El segundo paso es descomponer la tarea en sus
+
+13
+00:01:16,28 --> 00:01:22,96
+tres bloques. Que la pone en marcha. Esa es el disparador. ¿Qué condiciones deciden?
+
+14
+00:01:22,96 --> 00:01:31,16
+Esa es la regla que hace al final. Esa es la acción. Escribelo en un papel en una nota.
+
+15
+00:01:31,16 --> 00:01:41,12
+Disparador, regla, acción. Si no puedes escribir tu tarea en estas tres líneas, es que todavía
+
+16
+00:01:41,12 --> 00:01:48,12
+no lo entiendes del todo. Y está bien. Vuelve a pensarlo hasta que encaje. Haz una pausa.
+
+17
+00:01:48,12 --> 00:01:55,84
+Monta el flujo en N, ocho N, antes de seguir el tercer. Vamos a verlo en pantalla. Este es
+
+18
+00:01:55,84 --> 00:02:01,52
+el ejercicio de la lección. Tu primera tarea real automatizada. El caso de respaldo
+
+19
+00:02:01,52 --> 00:02:07,24
+es responder con una plantilla o cualquier correo que contenga la palabra presupuesto. En
+
+20
+00:02:07,24 --> 00:02:14,20
+el lienzo de N, ocho N, lo primero es el disparador. pulsamos el botón de anabir y buscamos
+
+21
+00:02:14,20 --> 00:02:20,80
+Gmail Trigger. El nodo que vigila tu correo y se dispara cuando llega un mensaje muerto.
+
+22
+00:02:20,80 --> 00:02:27,84
+Lo añadimos al lienzo. Después viene la regla. Una condición. Buscamos el nodo IF, el que
+
+23
+00:02:27,84 --> 00:02:33,88
+en español diríamos si, y lo conectamos al disparador. Aquí configuramos la condición. Si
+
+24
+00:02:33,88 --> 00:02:40,00
+el asunto del correo contiene la palabra presupuesto. Y por último, la acción, responder
+
+25
+00:02:40,00 --> 00:02:47,02
+con la plantilla. Añadimos un nodo de Gmail en modo de envío, el send, y conectamos la
+
+26
+00:02:47,02 --> 00:02:53,20
+condición con él. El mensaje se rellena solo con los datos del correo original. Connectamos
+
+27
+00:02:53,20 --> 00:03:02,16
+las tres piezas, disparador, regla, acción, pulsamos probar, vemos pasar los datos y ya está.
+
+28
+00:03:02,16 --> 00:03:07,36
+Su primera automatización trabajando sola. Así de fácil, si me escribir una línea de
+
+29
+00:03:07,36 --> 00:03:14,12
+código. Connecta las piezas en orden y revisa que cada una mira la siguiente. Haz una pausa.
+
+30
+00:03:19,12 --> 00:03:26,20
+pulsar, probar y corrigir hasta que funcione el cuarto paso es probar. Este es el paso que casi todo
+
+31
+00:03:26,20 --> 00:03:32,52
+el mundo se salta. Y es el más importante. pulsar el botón de probar y observar. Entra la
+
+32
+00:03:32,52 --> 00:03:41,28
+información. La regla decide bien. Llega la acción. Si algo falla no pasa nada. Mira el mensaje
+
+33
+00:03:41,28 --> 00:03:47,40
+de error. Corrigue esa pieza y prueba otra vez. La primera vez que tu automatización funcione
+
+34
+00:03:47,40 --> 00:03:55,24
+de verdad, vas a sonreír. Te lo aseguro. Haz una pausa. Activa la ya nota que ahora mañana
+
+35
+00:03:55,24 --> 00:04:01,72
+sentir el quinto paso es dejarla a trabajar. Activa la y a partir de mañana será ella quien haga
+
+36
+00:04:01,72 --> 00:04:07,64
+la tarea. Tu solo las realizarás de vez en cuando como quien supervisa un empleado nuevo. Y cuando
+
+37
+00:04:07,64 --> 00:04:13,56
+veas que funciona durante una semana habrás dado el salto. Ya no eres la persona que hace la tarea,
+
+38
+00:04:13,56 --> 00:04:23,20
+eres la persona que hace que la tarea sea agua. No esperes a que sea perfecta. Ninguna automatización
+
+39
+00:04:23,20 --> 00:04:29,84
+nace perfecta. Nace funcionando y se mejora con el tiempo. Lo importante hoy es que termines
+
+40
+00:04:29,84 --> 00:04:36,00
+la lección con una automatización viva, haciendo trabajo real por ti. Si lo consigues, has
+
+41
+00:04:36,00 --> 00:04:44,20
+entendido el corazón de este curso. Si te atastas vuelve atrás, revisa los tres bloques y vuelve
+
+42
+00:04:44,20 --> 00:04:49,12
+a intentarlo. La primera tarea automatizada espera. Vamos a ello.

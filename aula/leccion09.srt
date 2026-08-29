@@ -1,0 +1,215 @@
+1
+00:00:00,00 --> 00:00:07,48
+viernes, diecisiete horas, tu jefe espera el informe semanal desde hace los horas.
+
+2
+00:00:07,48 --> 00:00:11,96
+Tú estás con la tercera taza de café y todavía te falta cruzar cuatro tablas para
+
+3
+00:00:11,96 --> 00:00:14,60
+sacar las cifras.
+
+4
+00:00:14,60 --> 00:00:24,64
+¿Te suena?
+
+5
+00:00:24,64 --> 00:00:28,68
+Hoy vamos a jubilar esa escena para siempre.
+
+6
+00:00:28,68 --> 00:00:31,72
+Vamos a montar juntas y paso a paso.
+
+7
+00:00:31,72 --> 00:00:38,76
+La automatización completa de un informe semanal con N8N, el caso real de la lección
+
+8
+00:00:38,76 --> 00:00:39,76
+de hoy.
+
+9
+00:00:39,76 --> 00:00:42,68
+Primero, el material de partida.
+
+10
+00:00:42,68 --> 00:00:48,92
+Durante la semana, tu equipo vuelca los datos en una hoja de cálculo de Google Sheets,
+
+11
+00:00:48,92 --> 00:00:52,48
+ventas, incidencias, tareas cerradas.
+
+12
+00:00:52,48 --> 00:00:59,24
+Nada sofisticado, solo registros diarios, esa hoja es la materia prima del informe.
+
+13
+00:00:59,24 --> 00:01:01,72
+Vamos a verlo en pantalla.
+
+14
+00:01:01,72 --> 00:01:05,68
+El caso real de la lección, el informe semanal automático.
+
+15
+00:01:05,68 --> 00:01:12,32
+Cada viernes a las cuatro, el flujo se pone en marcha solo, monta el informe y lo envía.
+
+16
+00:01:12,32 --> 00:01:14,84
+Lo construimos pieza a pieza.
+
+17
+00:01:14,84 --> 00:01:17,20
+Primero, el disparador.
+
+18
+00:01:17,20 --> 00:01:21,56
+Añadimos un modo shuttle trigger, el disparador por horario.
+
+19
+00:01:21,56 --> 00:01:26,72
+Lo configuramos para que se ejecute cada viernes a las 16 horas.
+
+20
+00:01:26,72 --> 00:01:29,68
+Esa es la puerta de entrada de la cadena.
+
+21
+00:01:29,68 --> 00:01:32,92
+Segundo, la recogida de datos.
+
+22
+00:01:32,92 --> 00:01:38,60
+Buscamos Google Sheets y elegimos la operación de lectura de filas.
+
+23
+00:01:38,60 --> 00:01:42,44
+La que en inglés se llama Red Row.
+
+24
+00:01:42,44 --> 00:01:49,52
+Connectamos la hoja donde el equipo vuelca los datos, ventas, incidencias, tareas cerradas.
+
+25
+00:01:49,52 --> 00:01:51,80
+Tercero, el cálculo.
+
+26
+00:01:51,80 --> 00:01:53,72
+Añadimos un modo code.
+
+27
+00:01:53,72 --> 00:01:58,60
+Un pequeño bloque de código que suma las ventas y cuenta las incidencias.
+
+28
+00:01:58,60 --> 00:02:03,60
+No escribes ninguna fórmula a mano, la máquina lo hace.
+
+29
+00:02:03,60 --> 00:02:05,88
+Cuarto, el formato.
+
+30
+00:02:05,88 --> 00:02:12,00
+Con un modo de plantilla, los números se colocan en el informe con su estructura y su estilo.
+
+31
+00:02:12,00 --> 00:02:14,24
+Quinto, la entrega.
+
+32
+00:02:14,24 --> 00:02:21,72
+Añadimos el modo Gmail en su acción de envío, la que se llama Send y conectamos el informe.
+
+33
+00:02:21,72 --> 00:02:26,96
+Y de propina, un mensaje corto al grupo de WhatsApp, del equipo con lo esencial.
+
+34
+00:02:26,96 --> 00:02:31,96
+Va, conectamos todas las piezas en orden, probamos el flujo.
+
+35
+00:02:31,96 --> 00:02:35,00
+Y a partir del próximo viernes trabaja solo.
+
+36
+00:02:35,00 --> 00:02:36,40
+Tú no haces nada.
+
+37
+00:02:36,40 --> 00:02:38,00
+Ese es el punto.
+
+38
+00:02:38,00 --> 00:02:41,20
+Todos enterados, nadie persiguiendo a nada.
+
+39
+00:02:41,20 --> 00:02:43,56
+Y ¿qué haces tú mientras tanto?
+
+40
+00:02:43,56 --> 00:02:44,56
+Nada.
+
+41
+00:02:44,56 --> 00:02:45,56
+A.
+
+42
+00:02:45,56 --> 00:02:47,24
+Ese es el punto.
+
+43
+00:02:47,24 --> 00:02:50,28
+El viernes a las cuatro y media el flujo trabaja solo.
+
+44
+00:02:50,28 --> 00:02:54,16
+Y tú estás cerrando tus tareas o sabiendo a tomar algo.
+
+45
+00:02:54,16 --> 00:02:58,88
+El lunes, cuando llegue tu jefe con el informe en la mano, son regla.
+
+46
+00:02:58,88 --> 00:03:03,76
+Y tú también, porque sabes que la semana que viene, se repetirás solo.
+
+47
+00:03:03,76 --> 00:03:06,52
+Este es el momento de hacerlo tuyo.
+
+48
+00:03:06,52 --> 00:03:08,52
+Cambia las ventas por tus métricas.
+
+49
+00:03:08,52 --> 00:03:10,32
+Cambia el viernes por tu día.
+
+50
+00:03:10,32 --> 00:03:12,24
+Cambia el jefe por tu cliente.
+
+51
+00:03:12,24 --> 00:03:13,92
+La estructura es la misma.
+
+52
+00:03:13,92 --> 00:03:18,32
+Disparador, datos, cálculo, plantilla y entrega.
+
+53
+00:03:18,32 --> 00:03:24,92
+Y cuando lo tengas corriendo, habrás dejado de ser espectador para ser quien construye.
+
+54
+00:03:24,92 --> 00:03:27,48
+Eso es y a operativa en estado puro.

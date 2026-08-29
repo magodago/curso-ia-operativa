@@ -1,0 +1,183 @@
+1
+00:00:00,00 --> 00:00:04,20
+¿Cuántas veces al día haces de mensajero entre tus herramientas?
+
+2
+00:00:04,20 --> 00:00:09,32
+Copias un dato de un correo, lo pegas en una hoja de cárculo y luego se lo revienvías
+
+3
+00:00:09,32 --> 00:00:12,08
+a alguien por whatsapp.com.
+
+4
+00:00:12,08 --> 00:00:18,52
+Ese trabajo de copiar y pegar es exactamente lo que vamos a eliminar hoy y lo vamos a
+
+5
+00:00:18,52 --> 00:00:20,48
+hacer con los conectores.
+
+6
+00:00:20,48 --> 00:00:25,40
+Un conectores la pieza de n, 8n, que habla con otra herramienta.
+
+7
+00:00:25,40 --> 00:00:28,88
+Piensa en n, 8n como un intérprete.
+
+8
+00:00:28,88 --> 00:00:35,48
+Tú no hablas chino, la otra persona no hablas paño y n, 8n traduce entre los dos.
+
+9
+00:00:35,48 --> 00:00:43,84
+En nuestro caso, n, 8n habla con Gmail, con Google Sheets y con whatsapp.com y lo importante
+
+10
+00:00:43,84 --> 00:00:46,36
+solo tienes que presentarlos una vez.
+
+11
+00:00:46,36 --> 00:00:52,24
+Imagina este caso real, un cliente te envía un correo pidiendo un presupuesto.
+
+12
+00:00:52,24 --> 00:00:59,00
+En vez de leerlo, copiar sus datos y escribirle de vuelta, el flujo hace todo solo.
+
+13
+00:00:59,00 --> 00:01:05,12
+El conector de Gmail detecta el correo nuevo, lee el nombre del cliente y el pedido.
+
+14
+00:01:05,12 --> 00:01:12,56
+Añadir una fila nueva en tu hoja de cárculo, de Google Sheets con toda la información
+
+15
+00:01:12,56 --> 00:01:18,20
+y por último manda un mensaje de whatsapp a tu compañero de ventas para avisarle.
+
+16
+00:01:18,20 --> 00:01:20,72
+Hay un presupuesto nuevo esperando.
+
+17
+00:01:20,72 --> 00:01:25,32
+Es lo que ha pasado, ninguna de esas herramientas hablaba con las otras.
+
+18
+00:01:25,32 --> 00:01:31,40
+Tuveras el pegamento que la sumía, ahora el pegamento es el flujo y tú te dedicas a lo que
+
+19
+00:01:31,40 --> 00:01:36,52
+importa, revisar el presupuesto, negociar, cerrar la venta.
+
+20
+00:01:36,52 --> 00:01:42,84
+Ahora vamos a verlo en pantalla, esta es la lección de los conectores, como n, 8n, habla
+
+21
+00:01:42,84 --> 00:01:46,36
+con Gmail, con Google Sheets y con whatsapp.
+
+22
+00:01:46,36 --> 00:01:52,60
+Fíjate en el panel de nodos, a la izquierda del editor, ese es el catálogo de todas las
+
+23
+00:01:52,60 --> 00:02:01,52
+herramientas que n, 8n sabe usar, arriba está el buscador, escribimos Gmail Trigger, es
+
+24
+00:02:01,52 --> 00:02:06,20
+el conector que vigida tu correo y se dispara cuando llega un mensaje mode.
+
+25
+00:02:06,20 --> 00:02:12,28
+Ahí está, lo añadimos al dienzo, ahora buscamos Google Sheets, el conector que lee
+
+26
+00:02:12,28 --> 00:02:20,48
+y escribe en tus hojas de cálculo, aquí está, y por último whatsapp Business Cloud, el
+
+27
+00:02:20,48 --> 00:02:27,04
+conector que manda mensajes de whatsapp e y lo vemos en el catálogo, ahora viene el paso
+
+28
+00:02:27,04 --> 00:02:34,04
+importante, cada conector necesita su credencial, su llave, pulsamos el botón de credencial,
+
+29
+00:02:34,04 --> 00:02:41,64
+elegimos crear nueva y en 8n abre la ventana de autorización de Google o de meta, inicia
+
+30
+00:02:41,64 --> 00:02:49,60
+sesión, aceptas los permisos y la conexión queda guardado, ese mecanismo se llama Oau,
+
+31
+00:02:49,60 --> 00:02:55,44
+pero tú solo haces flip y aceptar, cada conector se autoriza una sola vez y queda disponible
+
+32
+00:02:55,44 --> 00:03:04,16
+para todos tus flujos, así es como n, 8n, traduce entre tus herramientas, un interprete
+
+33
+00:03:04,16 --> 00:03:09,64
+que habla con todas, para que tú no copies y pegas nunca más, cada conector se autoriza
+
+34
+00:03:09,64 --> 00:03:15,44
+una sola vez y queda disponible para todos tus flujos, cada conexión se configura una
+
+35
+00:03:15,44 --> 00:03:21,44
+vez, autorizas tu Gmail, autorizas tu hoja de cálculo, autorizas tu whatsapp y a partir de
+
+36
+00:03:21,44 --> 00:03:26,88
+ahí el flujo puede usarlas todas las veces que quiera, ojo un detalle importante para que
+
+37
+00:03:26,88 --> 00:03:33,00
+un flujo mande mensajes, whatsapp no usa tu app personal usa la versión Business, necesitas
+
+38
+00:03:33,00 --> 00:03:40,64
+una cuenta de empresa en meta, un número verificado y unas plantillas de mensaje aprobadas
+
+39
+00:03:40,64 --> 00:03:47,00
+para los mensajes que inicia el flujo, la primera configuración te lleva unos 30 minutos y se
+
+40
+00:03:47,00 --> 00:03:53,08
+hace una sola vez, es como darle una llave a un empleado de confianza, la primera vez tardas
+
+41
+00:03:53,08 --> 00:04:00,40
+5 minutos y después trabaja solo, mi consejo no conectes todas las herramientas de golpe,
+
+42
+00:04:00,40 --> 00:04:06,16
+leige una relación que te doela, una sola, correos que van a una hoja, o pedidos que
+
+43
+00:04:06,16 --> 00:04:13,16
+avisan por whatsapp pinto, una conexión hecha bien, ya te cambia la semana, cuando veas lo
+
+44
+00:04:13,16 --> 00:04:19,52
+fácil que es el resto llegar a solo, y cuando llegue el viernes, piensa en cuántos correos,
+
+45
+00:04:19,52 --> 00:04:27,92
+hojas y mensajes han viajado solo, eso es y operativa, no es magia, es montar conexiones
+
+46
+00:04:27,92 --> 00:04:30,12
+una vez para no repetirlas nunca más.

@@ -1,0 +1,267 @@
+1
+00:00:00,00 --> 00:00:02,44
+Esta es la lección que lo junta a todo.
+
+2
+00:00:02,44 --> 00:00:06,24
+Montamos hoy una automatización completa de principio a fin,
+
+3
+00:00:06,24 --> 00:00:08,04
+sin saltarnos un paso.
+
+4
+00:00:08,04 --> 00:00:09,88
+No es un ejercicio más.
+
+5
+00:00:09,88 --> 00:00:11,56
+Es tu proyecto final.
+
+6
+00:00:11,56 --> 00:00:14,64
+Al terminar, tendrás algo real funcionando.
+
+7
+00:00:14,64 --> 00:00:17,42
+Yo te digo, tú construyes.
+
+8
+00:00:17,42 --> 00:00:19,48
+Primero, elige la tarea.
+
+9
+00:00:19,48 --> 00:00:24,48
+Para elegirla, aplícalo de la lección 16, algo que se repita,
+
+10
+00:00:24,48 --> 00:00:28,00
+que te quite tiempo y que no toque datos sensibles.
+
+11
+00:00:28,00 --> 00:00:31,28
+Y no se te ocurre nada de propongo una.
+
+12
+00:00:31,28 --> 00:00:36,04
+El informe semanal, tú elige el tema, ventas, tareas,
+
+13
+00:00:36,04 --> 00:00:37,56
+incidencias.
+
+14
+00:00:37,56 --> 00:00:42,28
+Y una punte, si giste la lección 9, ya lo tienes medio montado.
+
+15
+00:00:42,28 --> 00:00:47,04
+Aquí lo conviertes en tu proyecto final completo, documentado,
+
+16
+00:00:47,04 --> 00:00:50,24
+probado, seguro y en producción.
+
+17
+00:00:50,24 --> 00:00:54,88
+Es el proyecto perfecto, útil, seguro y rápido.
+
+18
+00:00:54,88 --> 00:00:58,72
+Paso uno, describe la tarea en papel sin tecnología.
+
+19
+00:00:58,72 --> 00:01:02,80
+Que entra, que sale, que haces tú en medio.
+
+20
+00:01:02,80 --> 00:01:05,88
+Por ejemplo, cada viernes cojo las ventas de la hoja,
+
+21
+00:01:05,88 --> 00:01:08,40
+la resumo y las manda al grupo.
+
+22
+00:01:08,40 --> 00:01:11,24
+Eso es todo, tres frases.
+
+23
+00:01:11,24 --> 00:01:16,28
+Si no puedes explicar la tarea así de simple, todavía no lo entiendes.
+
+24
+00:01:16,28 --> 00:01:18,84
+Paso dos, dibuja el flujo.
+
+25
+00:01:18,84 --> 00:01:26,56
+Pienza en N, 8N, como una cadena disparador, procesamiento salida.
+
+26
+00:01:26,56 --> 00:01:30,56
+El disparador puede ser una hora, viernes a las 9.
+
+27
+00:01:30,56 --> 00:01:36,68
+El procesamiento, leer la hoja, agrupar los datos, preparar el resumo.
+
+28
+00:01:36,68 --> 00:01:40,72
+La salida, el mensaje que llega al equipo, sin código.
+
+29
+00:01:40,72 --> 00:01:47,68
+Solo piezas conectadas.
+
+30
+00:01:47,68 --> 00:01:49,68
+Vamos a verlo en pantalla.
+
+31
+00:01:49,68 --> 00:01:55,88
+Esta es la elección del proyecto final, una automatización completa de principio a fin.
+
+32
+00:01:55,88 --> 00:02:00,68
+Aquí tienes el flujo terminado, la cadena de montaje entera.
+
+33
+00:02:00,68 --> 00:02:07,36
+Empieza por el disparador, un schedule trigger que se ejecuta cada viernes a las 9, sin
+
+34
+00:02:07,36 --> 00:02:09,16
+que nadie lo encienda.
+
+35
+00:02:09,16 --> 00:02:15,32
+Le sigue la recogida de datos, Google Sheets en modo lectura de filas, el Red Rose,
+
+36
+00:02:15,32 --> 00:02:17,72
+que le haga hoja de ventas de la semana.
+
+37
+00:02:17,72 --> 00:02:22,12
+Después el procesamiento, un nodo code que agrupa los datos y prepara el resumen, sin
+
+38
+00:02:22,12 --> 00:02:23,76
+escribir código a más.
+
+39
+00:02:23,76 --> 00:02:28,40
+Luego la salida, el mensaje que llega al equipo.
+
+40
+00:02:28,40 --> 00:02:33,88
+Cada pieza está conectada a la siguiente y cada una se probó antes de montar la siguiente.
+
+41
+00:02:33,88 --> 00:02:40,04
+Esta es la clave del proyecto, pieza a pieza, probando cada una, nunca todo al final.
+
+42
+00:02:40,04 --> 00:02:46,20
+Mira cómo cada nodo tiene su nombre claro, su descripción y quien lo mantiene.
+
+43
+00:02:46,20 --> 00:02:49,80
+Eso es la documentación que forma parte del proyecto.
+
+44
+00:02:49,80 --> 00:02:55,28
+El flujo está activo corriendo solo y la prueba de que funciona es la revisión.
+
+45
+00:02:55,28 --> 00:03:01,32
+Una semana después comprobamos las ejecuciones, las salidas y confirmamos que todo ha ido
+
+46
+00:03:01,32 --> 00:03:02,32
+bien.
+
+47
+00:03:02,32 --> 00:03:09,64
+El documentado, probado, seguro y en producción, eso ya no es un experimento, es un sistema
+
+48
+00:03:09,64 --> 00:03:10,96
+de trabajo.
+
+49
+00:03:10,96 --> 00:03:16,76
+Nunca monte todo y pruebes al final, solo encontrarás el error al final.
+
+50
+00:03:16,76 --> 00:03:23,32
+Paso 4, la prueba rea, ejecuta el flujo con datos de verdad, pero controlado.
+
+51
+00:03:23,32 --> 00:03:26,96
+El mensaje te lleve a ti no al grupo entero.
+
+52
+00:03:26,96 --> 00:03:33,52
+Pisa el resultado, los números son correctos, el texto se entiende y al bofaya aquí
+
+53
+00:03:33,52 --> 00:03:36,24
+es donde lo arreglas en silencio.
+
+54
+00:03:36,24 --> 00:03:43,80
+Paso 5, activa lo y mide, programa el disparador para que corra solo y anota en tu vista qué
+
+55
+00:03:43,80 --> 00:03:46,04
+hace y quién la mantiene.
+
+56
+00:03:46,04 --> 00:03:53,36
+Ya sabes documentación porque el orden también forma parte del proyecto y el paso 6, el que
+
+57
+00:03:53,36 --> 00:03:57,92
+separa a los que aproban de los que suspenden la revisión.
+
+58
+00:03:57,92 --> 00:04:03,68
+Una semana después vuelve a mirar el flujo, funcionó todas las veces, alguna salida
+
+59
+00:04:03,68 --> 00:04:10,52
+fue rara, un proyecto no termina cuando se activa, termina cuando ves que funciona solo, semana
+
+60
+00:04:10,52 --> 00:04:11,52
+tras semana.
+
+61
+00:04:11,52 --> 00:04:15,84
+Si ha llegado hasta aquí, has hecho en una hora lo que muchas empresas tardan meses
+
+62
+00:04:15,84 --> 00:04:17,16
+en lograr.
+
+63
+00:04:17,16 --> 00:04:23,24
+Una automatización documentada, probada, segura y funcionando, eso ya no es un experimento
+
+64
+00:04:23,80 --> 00:04:29,96
+es un sistema de trabajo, en orabuena, has terminado la parte práctica del curso.
+
+65
+00:04:29,96 --> 00:04:37,04
+La última lección es corta y especial, hablamos de qué hacer a partir de mañana, de la comunidad
+
+66
+00:04:37,04 --> 00:04:39,20
+y de cómo seguir creciendo.
+
+67
+00:04:39,20 --> 00:04:40,00
+Te espero allí.

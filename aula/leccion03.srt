@@ -1,0 +1,131 @@
+1
+00:00:00,000 --> 00:00:06,299
+piensa en una fábrica de coches, la carrocería entra por un lado y por la cadena va pasando
+
+2
+00:00:06,299 --> 00:00:15,380
+de estación en estación, en una estación le ponen las puertas, en otra el motor, en
+
+3
+00:00:15,380 --> 00:00:20,879
+la última se comproba de todo función, cada pieza encaja con la siguiente y al final sale
+
+4
+00:00:20,879 --> 00:00:29,519
+un coche terminado, pues en 8 o en funciona exactamente igual, es una cadena de montaje digital,
+
+5
+00:00:29,519 --> 00:00:34,960
+tú colocas las piezas, las conectas entre sí y la máquina hace el trabajo de principio
+
+6
+00:00:34,960 --> 00:00:42,280
+a fin, sin escribir ni una línea de código, en 8 o en es una herramienta de automatización
+
+7
+00:00:42,280 --> 00:00:48,399
+y es gratis para empezar, piensa en ella como tu fábrica personal, dentro cada pieza
+
+8
+00:00:48,399 --> 00:00:55,340
+se llaman otra, un nodo puede leer un correo, buscar una factura, consultar una tabla o enviar
+
+9
+00:00:55,340 --> 00:01:01,620
+un mensaje y tú conectas un nodo con otro igual que se conectan las estaciones de la cadena,
+
+10
+00:01:01,620 --> 00:01:10,240
+el correo entra, se procesa y sale la respuesta, todo solo vamos a verlo en pantalla, dentro
+
+11
+00:01:10,240 --> 00:01:18,379
+de en 8 o en, esto es el editor de en 8 o en el lienzo donde se construyen las automatizaciones,
+
+12
+00:01:18,379 --> 00:01:24,260
+aquí arriba está el buscador de nodos, las piezas que en cadenas para montar el flujo, primero
+
+13
+00:01:24,260 --> 00:01:31,180
+añadimos el disparador, buscamos es Dual Trigger, el nodo que ejecuta la automatización
+
+14
+00:01:31,180 --> 00:01:41,500
+cada día a la hora que le digamos, lo arrastramos al lienzo, ahora buscamos Gmail, aquí está,
+
+15
+00:01:41,500 --> 00:01:47,540
+lo añadimos al lienzo, para que funcione tiene que conectarse a tu cuenta de Google, pulsamos
+
+16
+00:01:47,540 --> 00:01:53,100
+el botón de credenciales y se abre la ventana de Google para iniciar sesión y aceptar
+
+17
+00:01:53,100 --> 00:02:00,340
+los permisos, esa conexión se hace una sola vez y queda guardada de forma segura y con esto
+
+18
+00:02:00,340 --> 00:02:06,540
+tienes la base de tu primera automatización, un disparador que la pone en marcha, una acción
+
+19
+00:02:06,540 --> 00:02:13,460
+que hace el trabajo y la conexión segura con tus datos, con este paso a paso tú puedes
+
+20
+00:02:13,460 --> 00:02:21,939
+hacerlo igual en tu propio N8N, pantalla por pantalla sin necesidad de programar nada, dile que
+
+21
+00:02:21,939 --> 00:02:29,219
+quieres vigilar, por ejemplo un correo nuevo que llega, esa es la puerta de entrada de la cadena,
+
+22
+00:02:29,219 --> 00:02:35,819
+luego añade la siguiente pieza, Google Sheets, por ejemplo, para guardar los datos del correo en
+
+23
+00:02:35,819 --> 00:02:42,740
+una tabla, conectas las dos piezas, pulsas el botón de probar y verás pasar la información
+
+24
+00:02:42,740 --> 00:02:48,340
+de un lado a otro como el coche por la fábrica, la primera vez que lo ves se te pone la piel
+
+25
+00:02:48,340 --> 00:02:58,980
+de gallina, te lo prometo y qué pasa si te equivocas, nada, o puedes deshacer mover piezas,
+
+26
+00:02:58,980 --> 00:03:06,300
+probar otra vez, no rompes nada, la cadena solo se mueve cuando tú la enciendes y si algo
+
+27
+00:03:06,300 --> 00:03:13,140
+falla N8N te lo dice con un mensaje claro, es como aprender a montar mode, al principio
+
+28
+00:03:13,140 --> 00:03:19,620
+cuesta pero la segunda vez va solo, un consejo, no intentes construir la fábrica entera
+
+29
+00:03:19,620 --> 00:03:30,060
+el primer día, monta una pieza, prueba la, añade otra y otra, poco a poco, antes de darte cuenta
+
+30
+00:03:30,060 --> 00:03:35,980
+tendrás un flujo que hace por ti lo que antes hacía esa mano y ese es el momento en que
+
+31
+00:03:35,980 --> 00:03:42,620
+empiezas a entender porque la automatización cambia la forma de trabajar, ahora abre
+
+32
+00:03:42,620 --> 00:03:51,340
+tu navegador, entra en N8N y crea tu primer flujo, no hace falta que sea perfecto, solo tiene
+
+33
+00:03:51,340 --> 00:03:58,099
+que existir, la primera pieza de tu cadena de montaje digital te está esperando, vamos a ello
