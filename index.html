@@ -403,7 +403,7 @@ footer b{color:var(--text2)}
 // preloader
 (function(){var p=document.getElementById('pl');if(location.search.includes('nopre=1')){p.style.transition='none';p.style.opacity=0;p.style.visibility='hidden'}else{window.addEventListener('load',function(){setTimeout(function(){p.classList.add('done')},900)})}})();
 // CTAs: solo compra (PayPal) y contacto por email. Sin WhatsApp ni teléfono.
-function goPP(){window.open('https://www.paypal.com/qrcodes/managed/c131312c-ec4e-4415-804d-41a5725c516b?utm_source=consapp_download&amount=149&currency_code=EUR','_blank')}
+function goPP(){window.open('https://www.paypal.com/ncp/payment/WW6E56BAJLD7N','_blank')}
 function goContact(){
   var m=document.getElementById('contact-modal');
   if(m){m.style.display='flex';document.getElementById('cm-msg').focus()}
