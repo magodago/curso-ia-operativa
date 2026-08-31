@@ -12,6 +12,12 @@ Curso online de David Ortiz (NEO Labs) para aprender a crear automatizaciones re
 - Sin conocimientos de programación necesarios: se empieza en la lección 1 con la primera automatización
 - Tiempo estimado total (vídeo + práctica guiada): unas 3 horas
 
+## Para quién es
+- Personas sin conocimientos de programación que quieren automatizar tareas con IA
+- Trabajadores y profesionales que pierden horas en tareas repetitivas (emails, informes, actas, hojas de cálculo)
+- Quienes quieren aprender n8n desde cero y montar su primera automatización el mismo día
+- El instructor es David Ortiz (NEO Labs), con años liderando proyectos de inteligencia artificial y automatización para una consultora tecnológica internacional
+
 ## Qué vas a aprender
 - Qué es la IA operativa y dónde aplicarla en el trabajo diario
 - Montar flujos de automatización en n8n desde cero (interfaz, nodos, disparadores)
@@ -19,6 +25,23 @@ Curso online de David Ortiz (NEO Labs) para aprender a crear automatizaciones re
 - Generar informes, actas de reunión y emails profesionales con IA
 - Hacer que la IA escriba en tu estilo
 - Lista de control final para no romper tus automatizaciones
+
+## Preguntas frecuentes
+
+¿Necesito saber programar para hacer el curso?
+No. El curso está pensado para personas sin conocimientos de programación: se empieza en la lección 1 montando la primera automatización, y n8n se trabaja visualmente con nodos.
+
+¿Qué incluye el curso por 149€?
+20 lecciones en vídeo (duración total aproximada de 1 hora, condensadas), 20 guías PDF con pasos exactos y ejercicios, 5 plantillas descargables (checklist, informe semanal, acta de reunión, email profesional, biblioteca de prompts) y 5 demos reales de n8n en pantalla.
+
+¿Cuánto tiempo necesito para terminarlo?
+Unas 3 horas en total: la hora de vídeo más la práctica guiada con las guías PDF y las plantillas.
+
+¿Cómo compro el curso?
+Se paga por PayPal por 149€ (precio de lanzamiento; después sube a 199€). El acceso al aula llega por email tras la compra.
+
+¿Qué es n8n?
+n8n es una herramienta visual de automatización que conecta aplicaciones (Gmail, Google Sheets, IA, etc.) mediante nodos, sin escribir código. En el curso se usa en demos en pantalla real.
 
 ## URL principal
 https://curso.neolabs.me
